@@ -264,7 +264,7 @@ class Items extends BaseController
 
             $this->Items_model->save($oData);
             $this->session->setFlashdata('message', 'Create Record Success');
-            return redirect()->to(site_url($this->retorno));
+            return redirect()->to($this->retorno);
         }
     }
     
@@ -311,7 +311,7 @@ class Items extends BaseController
             $this->Items_model->save($oData);
             $this->session->setFlashdata('message', 'Update Record Success');
             
-           return redirect()->to(site_url($this->retorno));            
+           return redirect()->to($this->retorno);            
         }
     }
     

@@ -32,7 +32,7 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Items::index');
 
-$routes->add('home', 'Home::index',      ['namespace' => 'App\Controllers']);
+$routes->add('items', 'Items::index',                ['namespace' => 'App\Controllers']);
 
 $routes->add('newit/(:num)',  'Items::create/$1',    ['namespace' => 'App\Controllers']);
 $routes->add('newitok',       'Items::create_ok',    ['namespace' => 'App\Controllers']);

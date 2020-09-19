@@ -65,7 +65,7 @@
       <meta name="author" content="">
       <title>Items CRUD</title>
       <!-- Bootstrap core CSS -->
-      <link href="<?php echo site_url('assets/vendor/bootstrap/bootstrap.css') ?>" rel="stylesheet"/>
+      <link href="<?php echo base_url('assets/vendor/bootstrap/bootstrap.css') ?>" rel="stylesheet"/>
       <link href="<?php //echo site_url('assets/vendor/bootstrap/css/bootstrap.min.css') ?>" rel="stylesheet"/>
       <link href="<?php echo base_url('assets/datatables/dataTables.bootstrap4.min.css')?>" rel="stylesheet" />
       <!-- Custom styles for this template -->
