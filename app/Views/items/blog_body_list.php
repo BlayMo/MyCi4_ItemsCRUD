@@ -81,7 +81,7 @@ MyCache();
          <div class="card-body">
             Desarrollado con:</br>
              <ul>
-                 <li>Codeigniter 4.0.2</li>
+                 <li>Codeigniter <?= CodeIgniter\CodeIgniter::CI_VERSION ?></li>
                  <li>Bootstrap 4.4.1</li>
                  <li>Plantillas de https://startbootstrap.com/</li>
                  <li>https://datatables.net/</li>

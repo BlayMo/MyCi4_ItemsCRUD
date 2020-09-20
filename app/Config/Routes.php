@@ -32,6 +32,7 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Items::index');
 
+
 $routes->add('items', 'Items::index',                ['namespace' => 'App\Controllers']);
 
 $routes->add('newit/(:num)',  'Items::create/$1',    ['namespace' => 'App\Controllers']);
@@ -47,6 +48,7 @@ $routes->add('orden/(:num)',  'Items::reord/$1',     ['namespace' => 'App\Contro
 $routes->add('selcat',        'Items::selCat',       ['namespace' => 'App\Controllers']);
 $routes->add('fcat/(:num)',   'Items::fcat/$1',      ['namespace' => 'App\Controllers']);
 
+ 
 $routes->add('adcat',          'AdminCat::index',      ['namespace' => 'App\Controllers']);
 $routes->add('creacat',        'AdminCat::creaCat',    ['namespace' => 'App\Controllers']);
 $routes->add('creacatweb',     'AdminCat::creaCatWeb', ['namespace' => 'App\Controllers']);
